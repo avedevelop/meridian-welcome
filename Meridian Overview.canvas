@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "center",
+      "type": "text",
+      "text": "# Welcome to Meridian\n\nA free, open-source note-taking app.\n\nStart with [[Getting Started]]",
+      "x": 80,
+      "y": 850,
+      "width": 360,
+      "height": 160,
+      "color": "1"
+    },
+    {
+      "id": "graph",
+      "type": "text",
+      "text": "### Graph View\n`⌘⇧G`\nVisualize all your notes as an interactive knowledge map.\n\n→ [[Graph View]]",
+      "x": 520,
+      "y": 80,
+      "width": 280,
+      "height": 174,
+      "color": "3"
+    },
+    {
+      "id": "canvas-node",
+      "type": "text",
+      "text": "### Canvas\nInfinite spatial board. Place notes and connect them with lines.\n\n→ [[Canvas]]",
+      "x": 520,
+      "y": 314,
+      "width": 280,
+      "height": 154,
+      "color": "3"
+    },
+    {
+      "id": "markdown",
+      "type": "text",
+      "text": "### Markdown Guide\nFull formatting reference — callouts, tables, Mermaid diagrams.\n\n→ [[Markdown Guide]]",
+      "x": 520,
+      "y": 528,
+      "width": 280,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "daily",
+      "type": "text",
+      "text": "### Daily Notes\n`⌘D`\nOpen or create today's note instantly.\n\n→ [[Daily Notes]]",
+      "x": 520,
+      "y": 748,
+      "width": 280,
+      "height": 154,
+      "color": "5"
+    },
+    {
+      "id": "tasks",
+      "type": "text",
+      "text": "### Tasks\nCheckboxes across all notes collected in one panel.\n\n→ [[Tasks & Checklists]]",
+      "x": 520,
+      "y": 962,
+      "width": 280,
+      "height": 154,
+      "color": "5"
+    },
+    {
+      "id": "search",
+      "type": "text",
+      "text": "### Search\n`⌘K`\nJump to any note. Search inside content.\n\n→ [[Search & Command Palette]]",
+      "x": 520,
+      "y": 1176,
+      "width": 280,
+      "height": 154,
+      "color": "3"
+    },
+    {
+      "id": "git",
+      "type": "text",
+      "text": "### Git Backup\nAuto-commit to GitHub. Full version history.\n\n→ [[Git Backup]]",
+      "x": 520,
+      "y": 1390,
+      "width": 280,
+      "height": 154,
+      "color": "3"
+    },
+    {
+      "id": "examples",
+      "type": "text",
+      "text": "## Examples\n\n→ [[Research Note]]\n→ [[Project Planning]]\n→ [[Book Notes]]",
+      "x": 520,
+      "y": 1604,
+      "width": 360,
+      "height": 140,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "center",
+      "toNode": "graph",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "center",
+      "toNode": "canvas-node",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "center",
+      "toNode": "markdown",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "e4",
+      "fromNode": "center",
+      "toNode": "daily",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "e5",
+      "fromNode": "center",
+      "toNode": "tasks",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "e6",
+      "fromNode": "center",
+      "toNode": "search",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7",
+      "fromNode": "center",
+      "toNode": "git",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e8",
+      "fromNode": "center",
+      "toNode": "examples",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}
