@@ -51,16 +51,6 @@
       "color": "5"
     },
     {
-      "id": "tasks",
-      "type": "text",
-      "text": "### Tasks\nCheckboxes across all notes collected in one panel.\n\n→ [[Tasks & Checklists]]",
-      "x": 520,
-      "y": 962,
-      "width": 280,
-      "height": 154,
-      "color": "5"
-    },
-    {
       "id": "search",
       "type": "text",
       "text": "### Search\n`⌘K`\nJump to any note. Search inside content.\n\n→ [[Search & Command Palette]]",
@@ -89,6 +79,16 @@
       "width": 360,
       "height": 140,
       "color": "6"
+    },
+    {
+      "id": "tasks",
+      "type": "text",
+      "text": "### Tasks\nCheckboxes across all notes collected in one panel.\n\n→ [[Tasks & Checklists]]",
+      "x": 520,
+      "y": 962,
+      "width": 280,
+      "height": 154,
+      "color": "5"
     }
   ],
   "edges": [
