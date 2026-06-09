@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "center",
+      "type": "text",
+      "text": "# Velkommen til Meridian\n\nEn gratis notatapp med åpen kildekode.\n\nBegynn med [[Getting Started]]",
+      "x": 80,
+      "y": 850,
+      "width": 360,
+      "height": 160,
+      "color": "1"
+    },
+    {
+      "id": "graph",
+      "type": "text",
+      "text": "### Graph View\n`Ctrl+Shift+G`\nVisualiser alle notatene dine som et interaktivt kunnskapskart.\n\n→ [[Graph View]]",
+      "x": 520,
+      "y": 80,
+      "width": 280,
+      "height": 174,
+      "color": "3"
+    },
+    {
+      "id": "canvas-node",
+      "type": "text",
+      "text": "### Canvas\nUendelig romlig brett. Plasser notater og koble dem med linjer.\n\n→ [[Canvas]]",
+      "x": 520,
+      "y": 314,
+      "width": 280,
+      "height": 154,
+      "color": "3"
+    },
+    {
+      "id": "markdown",
+      "type": "text",
+      "text": "### Markdown Guide\nFullstendig formateringsreferanse — callouts, tabeller, Mermaid-diagrammer.\n\n→ [[Markdown Guide]]",
+      "x": 520,
+      "y": 528,
+      "width": 280,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "daily",
+      "type": "text",
+      "text": "### Daily Notes\n`Ctrl+D`\nÅpne eller opprett dagens notat umiddelbart.\n\n→ [[Daily Notes]]",
+      "x": 520,
+      "y": 748,
+      "width": 280,
+      "height": 154,
+      "color": "5"
+    },
+    {
+      "id": "search",
+      "type": "text",
+      "text": "### Search\n`Ctrl+K`\nHopp til et hvilket som helst notat. Søk i innhold.\n\n→ [[Search & Command Palette]]",
+      "x": 520,
+      "y": 1176,
+      "width": 280,
+      "height": 154,
+      "color": "3"
+    },
+    {
+      "id": "git",
+      "type": "text",
+      "text": "### Git Backup\nAuto-commit til GitHub. Full versjonshistorikk.\n\n→ [[Git Backup]]",
+      "x": 520,
+      "y": 1390,
+      "width": 280,
+      "height": 154,
+      "color": "3"
+    },
+    {
+      "id": "examples",
+      "type": "text",
+      "text": "## Eksempler\n\n→ [[Research Note]]\n→ [[Project Planning]]\n→ [[Book Notes]]",
+      "x": 520,
+      "y": 1604,
+      "width": 360,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "tasks",
+      "type": "text",
+      "text": "### Tasks\nAvkrysningsbokser fra alle notater samlet i ett panel.\n\n→ [[Tasks & Checklists]]",
+      "x": 520,
+      "y": 962,
+      "width": 280,
+      "height": 154,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "center",
+      "toNode": "graph",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "center",
+      "toNode": "canvas-node",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "center",
+      "toNode": "markdown",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "e4",
+      "fromNode": "center",
+      "toNode": "daily",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "e5",
+      "fromNode": "center",
+      "toNode": "tasks",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "e6",
+      "fromNode": "center",
+      "toNode": "search",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7",
+      "fromNode": "center",
+      "toNode": "git",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e8",
+      "fromNode": "center",
+      "toNode": "examples",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}
